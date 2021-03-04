@@ -16,4 +16,4 @@ async def on_message(message): #if a user sends a message
             await message.channel.send(f"Hello {message.author.mention}") #send message "Hello" and mention the user
 
 
-@bot.run("")
+bot.run("")
