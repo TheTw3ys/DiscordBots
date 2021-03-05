@@ -16,3 +16,4 @@ async def kick(ctx, member :discord.Member, *,reason=None):
     await member.kick(reason=reason)
     await ctx.send(f"Kicked {member.mention}\r\n Because of {reason}")
 
+bot.run("")
