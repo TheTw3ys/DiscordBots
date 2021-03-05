@@ -1,6 +1,5 @@
 import discord
 from discord.ext import commands
-from discord.ext.commands import command
 bot = commands.Bot(command_prefix= ",")
 
 @bot.event
